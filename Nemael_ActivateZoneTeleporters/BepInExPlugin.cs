@@ -31,28 +31,29 @@ namespace Nemael_MoreChestDrops {
             static void Postfix(PizzaGirlPropController __instance)
             {
                 WobPlugin.Log("| World creation complete");
+                //List of biome types:
                 //None,
                 //Editor
                 SaveManager.PlayerSaveData.SetTeleporterIsUnlocked(BiomeType.Castle, true);
                 SaveManager.PlayerSaveData.SetTeleporterIsUnlocked(BiomeType.Cave, true);
                 //CaveMiddle
                 //CaveBottom
-                //SaveManager.PlayerSaveData.SetTeleporterIsUnlocked(BiomeType.Dragon, true); NOT THIS
+                //Dragon
                 SaveManager.PlayerSaveData.SetTeleporterIsUnlocked(BiomeType.Forest, true);
                 //ForestTop
                 //ForestBottom
-                //SaveManager.PlayerSaveData.SetTeleporterIsUnlocked(BiomeType.Garden, true); NOT THIS
-                //SaveManager.PlayerSaveData.SetTeleporterIsUnlocked(BiomeType.DriftHouse, true); NOT THIS
+                //Garden
+                //DriftHouse
                 //HubTown
-                //SaveManager.PlayerSaveData.SetTeleporterIsUnlocked(BiomeType.Lake, true); NOT THIS
+                //Lake
                 //Lineage
                 //Spawn
                 //Special
                 SaveManager.PlayerSaveData.SetTeleporterIsUnlocked(BiomeType.Stone, true);
                 SaveManager.PlayerSaveData.SetTeleporterIsUnlocked(BiomeType.Study, true);
-                //SaveManager.PlayerSaveData.SetTeleporterIsUnlocked(BiomeType.Sunken, true) NOT THIS;
+                //Sunken
                 SaveManager.PlayerSaveData.SetTeleporterIsUnlocked(BiomeType.Tower, true);
-                //SaveManager.PlayerSaveData.SetTeleporterIsUnlocked(BiomeType.TowerExterior, true); NOT THIS
+                //TowerExterior
                 //Town
                 //Tutorial
                 //Arena
