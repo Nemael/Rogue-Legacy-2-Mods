@@ -19,6 +19,8 @@ To build the mods, you need to setup BepInEx on your machine, and then run `dotn
 
 You might have to modify the GamePath in `solution_private.targets` to suit your local game location to build the mods correctly.
 
+When build completes, the mods will be copied to your game directory automatically.
+
 ## Information
 
 This mod has been made possible using [Wobat's mods](https://github.com/wobatt/RogueLegacy2Mods) source code, and uses Wob_Common from that repository.
