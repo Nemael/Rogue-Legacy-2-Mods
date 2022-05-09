@@ -2,7 +2,7 @@
 
 Mods for the game Rogue Legacy 2
 
-## Links to the mods page:
+## Links to the mods pages
 
 [More Chest Drops](https://www.nexusmods.com/roguelegacy2/mods/10)
 
