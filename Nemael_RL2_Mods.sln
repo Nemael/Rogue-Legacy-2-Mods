@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.223
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{27C27ADA-3457-4998-95CB-A3DDAD622ADB}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Wob_Common", "Wob_Common\Wob_Common.shproj", "{C2D09D20-E45B-434A-8E6E-16703A8B76DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nemael_MoreChestDrops", "Nemael_MoreChestDrops\Nemael_MoreChestDrops.csproj", "{DF35C7AD-7BCF-41BF-951D-E0283313E285}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nemael_ActivateZoneTeleporters", "Nemael_ActivateZoneTeleporters\Nemael_ActivateZoneTeleporters.csproj", "{5221046E-04C2-4CE9-928D-87CF9A604151}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Wob_Common\Wob_Common.projitems*{5221046e-04c2-4ce9-928d-87cf9a604151}*SharedItemsImports = 5
+		Wob_Common\Wob_Common.projitems*{c2d09d20-e45b-434a-8e6e-16703a8b76db}*SharedItemsImports = 13
+		Wob_Common\Wob_Common.projitems*{df35c7ad-7bcf-41bf-951d-e0283313e285}*SharedItemsImports = 5
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF35C7AD-7BCF-41BF-951D-E0283313E285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF35C7AD-7BCF-41BF-951D-E0283313E285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF35C7AD-7BCF-41BF-951D-E0283313E285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF35C7AD-7BCF-41BF-951D-E0283313E285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5221046E-04C2-4CE9-928D-87CF9A604151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5221046E-04C2-4CE9-928D-87CF9A604151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5221046E-04C2-4CE9-928D-87CF9A604151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5221046E-04C2-4CE9-928D-87CF9A604151}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D112DA6C-541F-4B4B-B7D4-32DDCC1C32D0}
+	EndGlobalSection
+EndGlobal
