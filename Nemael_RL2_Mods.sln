@@ -14,8 +14,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nemael_MoreChestDrops", "Ne
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nemael_ActivateZoneTeleporters", "Nemael_ActivateZoneTeleporters\Nemael_ActivateZoneTeleporters.csproj", "{5221046E-04C2-4CE9-928D-87CF9A604151}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nemael_SkipRelicObtainedCutscene", "Nemael_SkipRelicObtainedCutscene\Nemael_SkipRelicObtainedCutscene.csproj", "{05A71928-7DFF-4AFD-BE3A-BDD672106A4A}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Wob_Common\Wob_Common.projitems*{05a71928-7dff-4afd-be3a-bdd672106a4a}*SharedItemsImports = 5
 		Wob_Common\Wob_Common.projitems*{5221046e-04c2-4ce9-928d-87cf9a604151}*SharedItemsImports = 5
 		Wob_Common\Wob_Common.projitems*{c2d09d20-e45b-434a-8e6e-16703a8b76db}*SharedItemsImports = 13
 		Wob_Common\Wob_Common.projitems*{df35c7ad-7bcf-41bf-951d-e0283313e285}*SharedItemsImports = 5
@@ -33,6 +36,10 @@ Global
 		{5221046E-04C2-4CE9-928D-87CF9A604151}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5221046E-04C2-4CE9-928D-87CF9A604151}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5221046E-04C2-4CE9-928D-87CF9A604151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A71928-7DFF-4AFD-BE3A-BDD672106A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A71928-7DFF-4AFD-BE3A-BDD672106A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A71928-7DFF-4AFD-BE3A-BDD672106A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A71928-7DFF-4AFD-BE3A-BDD672106A4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
