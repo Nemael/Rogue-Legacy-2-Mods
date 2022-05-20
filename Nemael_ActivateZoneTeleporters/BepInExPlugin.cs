@@ -22,15 +22,13 @@ namespace Nemael_MoreChestDrops {
             WobPlugin.Patch();
         }
 
-        // Patch for the method that manage the animation of a chest opening
-        //[HarmonyPatch(typeof(BiomeRuleManager), "OnWorldCreationComplete")]
-        //static class BiomeRuleManager_OnWorldCreationComplete_Patch
-        [HarmonyPatch(typeof(PizzaGirlPropController), "HasEventDialogue")]
-        static class PizzaGirlPropController_HasEventDialogue_Patch
+        [HarmonyPatch(typeof(BiomeRuleManager), "OnWorldCreationComplete")]
+        static class BiomeRuleManager_OnWorldCreationComplete_Patch
+        //static class PizzaGirlPropController_HasEventDialogue_Patch
         {
-            static void Postfix(PizzaGirlPropController __instance)
+            //Executes this code when generating the level
+            static void Postfix()
             {
-                WobPlugin.Log("| World creation complete");
                 //List of biome types:
                 //None,
                 //Editor
